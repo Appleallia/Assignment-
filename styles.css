@@ -1,0 +1,31 @@
+/* ===========================
+   Section 1: Body Styling
+   =========================== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===========================
+   Section 2: Ordered List Styling
+   =========================== */
+ol {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* ===========================
+   Section 3: Unordered List Styling
+   =========================== */
+ul {
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 20px; /* UL left margin */
+}
+
+/* ===========================
+   Section 4: Header One (H1)
+   =========================== */
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+}

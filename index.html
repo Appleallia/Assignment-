@@ -23,7 +23,7 @@
                 <li>1 cup of water</li>
                 <li>1 tablespoon of baking powder</li>
                 <li>1 teaspoon vanilla extract</li>
-                <li>salt,pepper</li>
+                <li>salt, pepper</li>
             </ul>
         </dd>
 
@@ -33,7 +33,7 @@
             <ol>
                 <li>Preheat the oven to 350°F (180°C).</li>
                 <li>Mix all dry ingredients thoroughly in a large bowl.</li>
-                <li>Pour in wet ingredients : Add eggs, milk, and vanilla extract to the bowl.</li>
+                <li>Pour in wet ingredients: Add eggs, milk, and vanilla extract to the bowl.</li>
                 <li>Mix for 10 minutes.</li>
                 <li>Pour the batter into a greased baking pan.</li>
                 <li>Bake at one hour at 300 degrees or until golden brown.</li>
@@ -47,12 +47,47 @@
                 <li>You may add chocolate chips for extra flavor.</li>
                 <li>Allow the cake to cool before slicing.</li>
                 <li>Experiment with toppings like fruits or powdered sugar.</li>
-                <li>The recipe may be imporoved by adding raisins.</li>
+                <li>The recipe may be improved by adding raisins.</li>
             </ul>
         </dd>
 
     </dl>
 
+    <hr>
+
+    <!-- JAVASCRIPT PROGRAM QUESTION 3 -->
+    <h2>Product Calculator (Question 3)</h2>
+
+    <button onclick="runProductCalculator()">Calculate Product</button>
+
+    <p id="output"></p>
+
+    <script>
+        // This program will calculate the product of three integers.
+
+        // Declare variables
+        let num1, num2, num3, result;
+        let num1Val, num2Val, num3Val;
+
+        function runProductCalculator() {
+            // Prompt user for values
+            num1Val = prompt("Enter first value:");
+            num2Val = prompt("Enter second value:");
+            num3Val = prompt("Enter third value:");
+
+            // Convert values to integers
+            num1 = parseInt(num1Val);
+            num2 = parseInt(num2Val);
+            num3 = parseInt(num3Val);
+
+            // Compute product
+            result = num1 * num2 * num3;
+
+            // Display result on webpage
+            document.getElementById("output").textContent =
+                "The product is " + result;
+        }
+    </script>
+
 </body>
 </html>
-
